@@ -10,7 +10,7 @@ export default defineConfig(
     {
        
         appType: 'mpa',
-        
+        base: "/portalesw2/",
         build: {
             rollupOptions: {
                 input: Object.fromEntries(
